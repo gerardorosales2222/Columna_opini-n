@@ -1,6 +1,6 @@
 let tamanioActual = 1; 
-const tamanos = ["20px", "25px", "30px", "45px", "55px","60px"];
-const titulo = ["45px", "50px", "50px","50px","55px","60px"];
+const tamanos = ["20px", "25px", "30px", "45px", "55px"];
+const titulo = ["45px", "50px", "50px","50px","55px"];
 function disminuirTamano() {
       if (tamanioActual > 0) {
           tamanioActual--;
