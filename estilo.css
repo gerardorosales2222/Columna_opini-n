@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 20px;
-    padding-top: 100px;
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -35,7 +35,9 @@ header p{
 }
 
 h1{
+    font-size: 45px;
     color: #fec607;
+    margin-bottom: 20px;
 }
 
 main{
