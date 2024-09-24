@@ -45,11 +45,6 @@ main{
     margin: 20px;
 }
 
-
-img{
-    margin: 10px;
-}
-
 footer{
     display: flex;
     justify-content: flex-start;
@@ -76,5 +71,9 @@ footer{
         background-color: #fec607;
         display: flex;
         justify-content: center;
+    }
+
+    img{
+        margin: 10px 0px;
     }
 }
