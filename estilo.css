@@ -59,21 +59,28 @@ footer{
 
 /* Para pantallas pequeñas (celulares) */
 @media (max-width: 767px) {
-    .imagen{
-        display: flex;
-        justify-content: center;
+
+    img{
+        width: 100%;
     }
 }
-  
-  /* Para pantallas medianas (tablets) y grandes (notebooks y desktops) */
-  @media (min-width: 768px) {
-    .imagen{
+
+/* Para pantallas medianas (tablets) y grandes (notebooks y desktops) */
+@media (min-width: 768px) {
+    .container{
         background-color: #fec607;
         display: flex;
         justify-content: center;
+        width: 100%;
+    }
+    
+    .im{
+        width: 550px;
+        padding: 0px 10px;
     }
 
-    img{
-        margin: 10px 0px;
+    main{
+        margin: 0 auto;        
+        width: 70%;
     }
 }
