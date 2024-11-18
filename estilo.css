@@ -41,14 +41,36 @@ h1{
     margin-bottom: 20px;
 }
 
+h2{
+    font-size: 30px;
+    color: #fec607;
+    margin-top: 40px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight:300;
+    color: #fec607;
+    margin-top: 20px;
+}
+
+ul li{
+    list-style-type: disc;
+    color: #fec607;
+}
+
+ul li p{
+    color: #EEEEEE; 
+}
+
 main{
     margin: 20px;
 }
 
 footer{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 100%;
     background-color: #fec607;
